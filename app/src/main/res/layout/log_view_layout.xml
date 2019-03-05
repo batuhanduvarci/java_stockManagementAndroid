@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayList"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/relativeButton">
+
+        <com.baoyz.swipemenulistview.SwipeMenuListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:headerDividersEnabled="true"
+            android:dividerHeight="2dp"
+            android:id="@+id/logListSwipe"
+            android:clickable="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeButton">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TABLOYU YENİLE"
+            android:id="@+id/refreshButton"/>
+    </RelativeLayout>
+</RelativeLayout>

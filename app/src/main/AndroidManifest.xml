@@ -1,0 +1,87 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.agent48.termproject">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmblogo"
+        android:label="BMB Inventory"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity.MainActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.MainMenu" android:noHistory="false">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.MAIN_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.DatabaseMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.DATABASE_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.StockMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.STOCK_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.AddProduct" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.ADD_PRODUCT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.UpdateProduct" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.UPDATE_PRODUCT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.DecreasingMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.DECREASING_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.OrderMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.ORDER_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.LogMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.LOG_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Menu.RequestMenu" android:noHistory="true">
+            <intent-filter>
+                <action android:name="com.example.agent48.termproject.REQUEST_MENU"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

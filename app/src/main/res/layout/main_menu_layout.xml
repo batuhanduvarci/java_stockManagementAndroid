@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/white_background">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/usernameTxt"
+            android:hint="Kullanıcı Adı"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="#d3d3d3"
+            android:textCursorDrawable="@drawable/cursor_color"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/passwordTxt"
+            android:hint="Şifre"
+            android:password="true"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180dp"
+            android:background="#d3d3d3"
+            android:textCursorDrawable="@drawable/cursor_color"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:id="@+id/buttonLogin"
+            android:text="Giriş"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:text="UYGULAMADAN ÇIK"
+            android:id="@+id/buttonExit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350dp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

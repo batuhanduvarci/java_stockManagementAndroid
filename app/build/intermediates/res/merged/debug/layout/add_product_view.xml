@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/productCodeTxt"
+        android:hint="Ürün Kodu"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/productNameTxt"
+        android:hint="Ürün Adı"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Üretim Tarihini Gün.Ay.Yıl formatında giriniz(dd.MM.yyyy)"
+        android:textAlignment="center"
+        android:textColor="#f00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/productionDateTxt"
+        android:hint="Üretim Tarihi"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Son Tüketim Tarihini Gün.Ay.Yıl formatında giriniz(dd.MM.yyyy)"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#f00"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/consumeDateTxt"
+        android:hint="Son Tüketim Tarihi"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/quantityTxt"
+        android:hint="Adet"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birim fiyatı ayırırken . yerine , kullanınız"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="#f00"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/priceTxt"
+        android:hint="Birim Fiyat"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#d3d3d3"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="170dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="ÜRÜN EKLE" />
+
+
+
+
+</LinearLayout>

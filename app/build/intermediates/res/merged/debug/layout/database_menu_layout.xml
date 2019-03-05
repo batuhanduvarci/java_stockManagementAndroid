@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonStock"
+        android:layout_marginTop="55dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Stoklar" />
+
+    <Button
+        android:id="@+id/buttonDecreasing"
+        android:layout_marginTop="45dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Azalan Ürünler" />
+
+    <Button
+        android:id="@+id/buttonRequests"
+        android:layout_marginTop="45dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Üyelik İstekleri" />
+
+    <Button
+        android:id="@+id/buttonOrders"
+        android:layout_marginTop="45dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Siparişler" />
+
+    <Button
+        android:id="@+id/buttonLogs"
+        android:layout_marginTop="45dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Hareketler" />
+
+
+</LinearLayout>
